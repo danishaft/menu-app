@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+main{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.menu-container{
+    padding: 2em 12em;
+}
+.heading{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.heading h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    letter-spacing: 4px;
+    text-align: center;
+    color: #102A42;
+}
+.heading .underline {
+    background: #c59d5f;
+    width: 80px;
+    height: 4px;
+    margin: 12px 0 30px 0;
+}
+.nav-btns-container{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 60px;
+}
+.nav-btns-container .nav-btn {
+    padding: .4em .8em;
+    border: 2px outset #c59d5f;
+    color: #c59d5f;
+    border-radius: 7px;
+    margin: 0 6px;
+    background: #ffff;
+    font-size: 16px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+.nav-btn:hover {
+    color: #fff;
+    background: #c59d5f;
+}
+.menus {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    gap: 3em 1.8em;
+}
+.menu-item {
+    display: flex;
+}
+.menu-item .img{
+    min-width: 12em;
+    height: 8em;
+    border: 3px solid #c59d5f;
+    border-radius: 8px;
+    margin-right: 14px;
+    display: block;
+}
+img{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    object-fit: cover;
+}
+.menu-item-info .info-head{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 0.8px dashed #617D98;
+    padding-bottom: 8px;
+}
+.menu-item-info .info-head h4 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    line-height: 13px;
+    letter-spacing: 4px;
+}
+.item-name{
+    color: #102A42;
+}
+.item-price{
+    color: #c59d5f;
+}
+.info-text{
+    color: #617D98;
+    font-size: 13px;
+    line-height: 22px;
+    padding-top: 14px;
+}
